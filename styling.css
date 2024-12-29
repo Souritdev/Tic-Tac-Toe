@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Prata&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ysabeau+SC:wght@1..1000&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", serif;
+  box-sizing: border-box;
+}
+
+body{
+ background-color:#E56399;
+  text-align: center;
+}
+
+.container{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game{
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box{
+  height: 18vmin;
+  width:  18vmin;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.575);
+  font-size: 8vmin;
+  color: #E54F6D;
+  cursor: pointer;
+  background-color: #E8D7FF;
+}
+
+#reset-btn{
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+
+#reset-btn:hover{
+  background-color: #BADEFC;
+  cursor: pointer;
+}
+
+#new-btn{
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+
+#new-btn:hover{
+  background-color: #2DE1FC;
+  cursor: pointer;
+}
+
+#msg{
+  color: #88D9E6;
+  font-size: 5vmin;
+}
+
+
+#msg-container{
+  height: 30vmin;
+  gap: 4rem;
+}
+
+.hide{
+  display: none;
+}
+
+
+
+
+
