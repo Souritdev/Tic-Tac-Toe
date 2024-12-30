@@ -36,7 +36,7 @@ const resetGame = () =>{
 boxes.forEach((box)=>{
   box.addEventListener("click",()=>{
     if(turn0){
-      box.innerText = "O";
+      box.innerText = "0";
       turn0 = false
     }else{
       box.innerText = "X";
